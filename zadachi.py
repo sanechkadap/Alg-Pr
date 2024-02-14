@@ -53,3 +53,55 @@ else:
     z = min
 print(z)
 ######################5
+import math
+
+x = int(input("x:"))
+y = int(input("y:"))
+z = int(input("z:"))
+if x<z:
+    min = x 
+    max = z
+else: 
+    min = z 
+    max = x 
+if y<max:
+    min = y 
+L = 2*max-3*min 
+print(L)
+######################6
+import math
+
+a = int(input("a:"))
+b = int(input("b:"))
+c = int(input("c:"))
+if a<b:
+    min = a 
+    max = b
+else: 
+    min = b 
+    max = a 
+if c>max:
+    max = c
+else:
+    min = c 
+P = (max+min)/2
+print(P)
+######################7
+import math
+
+a = int(input("a:"))
+b = int(input("b:"))
+
+if a%2==0:
+    print("число A четное")
+else:
+    print("число А нечетное")
+if b%2==0:
+    print("число B четное")
+else:
+    print("чило В нечетное")
+if a%2==0 and b%2==0:
+    print("оба числа четные")
+elif a%2!=0 and b%2!=0:
+    print("оба числа нечетные")
+        
